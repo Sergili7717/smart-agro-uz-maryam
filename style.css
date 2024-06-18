@@ -309,7 +309,6 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
-    margin-bottom: 500px;
    & .video__conteiner{
     display: flex;
     padding: clamp(40px,19.18vw,282px)0;
@@ -497,3 +496,36 @@ header {
         }
       }
     }
+    .agricult{
+    }
+    .agricult-text{
+      padding: 80px 0;
+      & h2{
+        font-size: 20px;
+        margin-bottom: 20px;
+      }
+      & h3{
+        font-family: 'Livvic';
+        font-size: 50px;
+        font-weight: bold;
+        margin-bottom: 67px;
+      }
+      & ul{
+        list-style: none;
+      }
+      & li{
+        & h4{
+          font-family: 'LIvvic';
+          font-weight: 600;
+          font-size: 24px;
+        }
+      & p{
+        font-size: 18px;
+      }
+      & :first-child{
+        padding-bottom: 60px;
+        border-bottom: 1px solid #ffffff20;
+        margin-bottom: 60px;
+      }
+    }
+  }
